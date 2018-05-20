@@ -10,7 +10,7 @@ body {
  margin: 0;
  padding: 0;
  font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
- /*background-image: url(../images/dust_scratches.png);*/
+ background-image: url(../images/dust_scratches.png);
                 
 }
 
@@ -209,20 +209,127 @@ p{
 }
 
 @media screen and (max-width: 980px) {
-    body {
-        background-color: white;
-    }
+    
 }
 
 @media screen and (max-width: 768px) {
-    body {
-		background-color: lightgreen;
-		h1 {left: 200px;}
-    }
+    
+
+	
+	
+	header {
+		width: 768px;
+	}
+
+	h1 {
+		left: -235px;
+	}
+	
+	nav {
+		left: 270px;
+	}
+
+	#main_bio {
+		width: 768px;
+	}
+
+	.container {
+		width: 768px;
+		height: 600px;
+	}
+
+	.portfolio {
+		width: 768px;
+
+	}
+	
+	.contact {
+		width: 768px;
+
+	}
+
+	form {
+		width: 768px;
+
+	}
+
+	#name {
+		width: 710px;
+	}
+
+	#email {
+		width: 710px;
+	}
+
+	textarea {
+		width: 710px;
+	}
+
+	footer {
+		width: 768px;
+
+	}
+
+	
+    
 }
 
 @media screen and (max-width: 640px) {
-    body {
-        background-color: pink;
-    }
+	
+	
+	
+	header {
+		width: 640px;
+	}
+
+	h1 {
+		left: -170px;
+	}
+
+	nav {
+		left: 200px;
+	}
+
+	#main_bio {
+		width: 640px;
+	}
+
+	.container {
+		width: 640px;
+		height: 700px;
+	}
+
+	.portfolio {
+		width: 640px;
+
+	}
+
+	.contact {
+		width: 640px;
+
+	}
+
+	form {
+		width: 640px;
+
+	}
+
+	#name {
+		width: 590px;
+	}
+
+	#email {
+		width: 590px;
+	}
+
+	textarea {
+		width: 590px;
+	}
+
+	footer {
+		width: 640px;
+
+	}
+
+	
 }
